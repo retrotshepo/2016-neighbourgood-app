@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.baqspace.proto.Profile">
+
+    <item
+        android:id="@+id/action_reports"
+        android:title="@string/action_reports"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/action_reports_trader"
+        android:title="@string/action_reports"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/action_update"
+        android:title="@string/action_update"
+        android:visible="false"></item>
+
+
+    <item
+        android:id="@+id/action_location"
+        android:title="@string/hello_world"
+        android:visible="false"></item>
+
+    <item
+        android:id="@+id/action_set_location"
+        android:title="@string/action_set_location"
+        android:visible="true"></item>
+
+
+
+
+</menu>

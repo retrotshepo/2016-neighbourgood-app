@@ -1,0 +1,107 @@
+<android.support.v4.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/review_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+
+    tools:context="com.baqspace.proto.ReviewTrader">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            />
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:textColor="#000000"
+                    android:hint="Add review here"
+                    android:id="@+id/review_body"
+                    android:visibility="gone"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/radio_group"
+                    android:visibility="gone">
+
+                    <RadioButton
+                        android:id="@+id/radio_quality"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="@string/radio_quality" />
+
+                    <RadioButton
+                        android:id="@+id/radio_service"
+                        android:layout_width="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="@string/radio_service"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radio_clean"
+                        android:layout_width="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="@string/radio_clean" />
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnReview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit_review"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

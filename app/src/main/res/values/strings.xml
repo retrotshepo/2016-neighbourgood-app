@@ -1,0 +1,256 @@
+<resources>
+    <!--> Neighbourgoods Market <!-->
+    <string name="app_name">Neighbourgoods\n(Final)</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_browse">Timeline</string>
+    <string name="action_recommendations">Recommendations</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_checkin">Check in</string>
+    <string name="action_commit">Commit changes</string>
+    <string name="action_add">Add item</string>
+
+    <string name="action_trader">Featured Traders</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="action_market_gallery">Market Gallery</string>
+
+    <string name="action_profile_manage">User Profile</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_remove">Remove</string>
+
+    <string name="action_login">Sign in</string>
+    <string name="action_logout">Sign out</string>
+    <string name="action_signup">Register</string>
+
+    <!-->  <!-->
+    <string name="action_gourmet">Gourmet</string>
+    <string name="action_drink">Beverage</string>
+    <string name="action_misc">Miscellaneous</string>
+
+
+    <string name="action_contact">Contact us</string>
+    <string name="action_about">About us</string>
+    <string name="action_locate">Navigate</string>
+
+
+    <string name="action_add_item">Add new item</string>
+    <string name="action_add_bio">Add new bio</string>
+    <string name="action_edit_bio">Edit bio</string>
+
+    <string name="action_edit_contact_us">Contact us</string>
+    <string name="action_view_traders">Edit trader list</string>
+    <string name="action_change_details">Change details</string>
+
+
+
+
+
+    <string name="contact_name">Your full name</string>
+    <string name="contact_email">E-mail address</string>
+    <string name="contact_message">Enter your message here.\nWe will get back to you within 2 business days</string>
+
+
+    <string name="signup_email">Email address</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_pass1">Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="signup_pass2">Re-Enter Password</string>
+    <string name="log">Log In</string>
+    <string name="signup">Sign up</string>
+    <string name="submit_message">Submit message</string>
+    <string name="submit_review">Submit</string>
+
+    <string name="pro_session">Session</string>
+
+    <string name="action_settings_global">Global Drawer Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+    <string name="title_activity_home">Neighbourgoods Home</string>
+    <string name="title_activity_login">Neighbourgoods</string>
+
+    <string name="title_activity_gallery">Gallery</string>
+
+
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_sign_up">Sign up</string>
+
+    <string name="compose_feed">Neighbourgoods news..</string>
+
+    <string name="about_market">EVERY SATURDAY RAIN OR SHINE 09:00 - 15:00 \n\n
+
+        The Neighbourgoods Market Johannesburg was founded by
+        original members Justin Rhodes and Cameron Munro
+        in partnership with Adam Levy of Play Braamfontein
+        \n\n
+        A company that has been at the forefront of turning the once dilapidated
+        neighbourhood of Braamfontein into the pioneering creative hub that it is now.
+        \n\n
+        Housed in a modernist building that has a spectacular 15 story wall mural
+        by the famed artist Eduardo Villa, the market is as much a source for farm
+        fresh foods and specialty goods as it is a meeting point to enjoy community,
+        swop ideas and stories, and be inspired by the energy that makes Johannesburg.
+        \n\n
+        BaqSpace Inc.
+    </string>
+
+    <!--> Vendor Information <!-->
+
+
+    <string name="sumting_fresh_menu">
+        GUJON CHICKEN:
+        \n
+        Chicken strips floured, egg crumbed with black and white sesame seeds then
+        deep fried to perfection. Served with skinny fries, Asian slaw and seasonal salad.
+        \n\n
+        TALIAN STALLION:
+        \n
+        A pillow of soft bun garnished with tomato, lettuce, Asian slaw then topped with
+        two juicy chicken fillets and our home made Napoletana sauce. Served with skinny
+        fries (Chicken can be deep fried or grilled)
+        \n\n
+        BAHN MI:
+        \n
+        French loaf stuffed with Asian meat balls cooked in a fresh tomato sauce then
+        topped with cucumber, coriander and pickled carrot and daikon
+        \n\n
+        GUA BAO BUN:
+        \n
+        Soft white Asian steamed bun served with a deboned chicken thigh coated in sweet
+        chili then drizzled with a siracha sauce
+        \n\n
+        FISH TACOS:
+        \n
+        Fish tacos with cream fraiche and caviar
+        \n\n
+
+    </string>
+
+    <string name="sumting_fresh_review">
+        Reviews will go here...
+    </string>
+
+    <string name="sumting_fresh_contact">
+    info@sumtingfresh.co.za
+    \n\n
+    andrew@sumtingfresh.co.za
+    \n\n
+    hezron@sumtingfresh.co.za
+        \n\n
+    </string>
+    <string name="sumting_fresh_bio">
+                            Sumting Fresh
+        \n\n
+        Classically trained chefs, Hezron Louw and Andrew Leeuw, the business minds
+        behind food truck company Sumting Fresh began selling at Neighbourgoods in 2014
+        and have since become popular amongst market goers for their restaurant style
+        street food as well as their unique way of interacting with customers.
+        \n\n
+        “We entertain our customers by collectively chanting and singing while preparing
+        the food, as well as make an effort address our customers with compliments”, mentions Hezron.
+        Their most ordered dish are their deep fried Gujon chicken strips served with an Asian slaw
+        summer salad and fries, topped with sweet chilli, aioli and parmesan cheese.
+        \n\n
+        Their other meal option on offer is equally delicious; the Italian Stallion comprises of
+        floured egg crumb chicken, Napoletana sauce and parmesan cheese in a fresh bread roll
+        with an Asian slaw summer side salad
+
+    </string>
+
+
+    <string name="trader_bio">Bio</string>
+    <string name="trader_contract">Contact Details</string>
+    <string name="trader_catalog">Menu/Catalog</string>
+    <string name="trader_review">Reviews and Ratings</string>
+
+
+    <string name="title_activity_locate">Locate</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_cuisine">Cuisine</string>
+
+
+    <string name="action_history">Review Log</string>
+    <string name="action_deregister">De-register</string>
+    <string name="title_activity_beverage">Beverage</string>
+
+
+    <string name="title_activity_misc">Misc</string>
+    <string name="title_activity_filter">Filter</string>
+    <string name="title_activity_compose">Compose</string>
+
+
+
+    <!--> Compose Information <!-->
+    <string name="action_post">Post</string>
+    <string name="action_post_update">Update post</string>
+
+
+    <string name="action_attach">Attach image</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="market_day">Day Market</string>
+    <string name="market_night">Night Market</string>
+    <string name="market_music">Market Music</string>
+
+    <string name="radio_subscribe">Subscribe</string>
+    <string name="radio_unsubscribe">Un-subscribe</string>
+
+
+    <string name="radio_service">Service</string>
+    <string name="radio_clean">Cleanliness</string>
+    <string name="radio_quality">Product Quality</string>
+
+    <string name="action_save_changes">Save</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_set_location">Set Store Location</string>
+    <string name="title_activity_profile_edit">ProfileEdit</string>
+    <string name="title_activity_edit_details">EditDetails</string>
+
+    <string name="title_activity_add_item">AddItem</string>
+
+
+    <string name="item_title">Title</string>
+    <string name="item_description">Description/Ingredients</string>
+    <string name="item_price">Price</string>
+
+    <string name="title_activity_check_in">CheckIn</string>
+    <string name="title_activity_review_trader">Review Trader</string>
+    <string name="title_activity_recommend">Recommended</string>
+
+    <string name="test_para">
+        Their other meal option on offer is equally delicious; the Italian Stallion comprises of
+        floured egg crumb chicken, Napoletana sauce and parmesan cheese in a fresh bread roll
+        with an Asian slaw summer side salad
+    </string>
+    <string name="title_activity_reports">Reports</string>
+    <string name="action_reports">View reports</string>
+    <string name="action_update">Update details</string>
+    <string name="title_activity_history">History</string>
+
+
+
+    <string name="action_add_review">Add review</string>
+    <string name="title_activity_edit_post">EditPost</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_splash_filter">SplashFilter</string>
+    <string name="title_activity_splash_gourmet">SplashGourmet</string>
+    <string name="title_activity_splash_beverage">SplashBeverage</string>
+    <string name="title_activity_splash_misc">SplashMisc</string>
+    <string name="title_activity_feed_detail">FeedDetail</string>
+    <string name="title_activity_feed_view">FeedView</string>
+    <string name="title_activity_trader_store">Store</string>
+    <string name="title_activity_reports_trader">ReportsTrader</string>
+    <string name="action_settings">Settings</string>
+
+
+    action_add_review
+
+</resources>

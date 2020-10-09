@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baqspace.proto" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/homecrop"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Login" />
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Filter"
+            android:label="@string/title_activity_filter"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Compose"
+            android:label="@string/title_activity_compose"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Locate"
+            android:label="@string/title_activity_locate" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".StoreLocation"
+            android:label="@string/title_activity_locate" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Login" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".AboutUs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.AboutUs" />
+        </activity>
+        <activity
+            android:name=".Cuisine"
+            android:label="@string/title_activity_cuisine"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Misc"
+            android:label="@string/title_activity_misc"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Beverage"
+            android:label="@string/title_activity_beverage"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Login" />
+        </activity>
+        <activity
+            android:name=".EditDetails"
+            android:label="@string/title_activity_edit_details"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddItem"
+            android:label="@string/title_activity_add_item"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CheckIn"
+            android:label="@string/title_activity_check_in"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewTrader"
+            android:label="@string/title_activity_review_trader"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Recommend"
+            android:label="@string/title_activity_recommend"
+            android:parentActivityName=".Filter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Filter" />
+        </activity>
+        <activity
+            android:name=".Reports"
+            android:label="@string/title_activity_reports"
+            android:parentActivityName=".Profile" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Profile" />
+        </activity>
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history"
+            android:parentActivityName=".Profile" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Profile" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Login" />
+        </activity>
+        <activity
+            android:name=".SplashFilter"
+            android:label="@string/title_activity_splash_filter"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashGourmet"
+            android:label="@string/title_activity_splash_gourmet"
+            android:parentActivityName=".Filter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Filter" />
+        </activity>
+        <activity
+            android:name=".SplashBeverage"
+            android:label="@string/title_activity_splash_beverage"
+            android:parentActivityName=".Filter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Filter" />
+        </activity>
+        <activity
+            android:name=".SplashMisc"
+            android:label="@string/title_activity_splash_misc"
+            android:parentActivityName=".Filter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Filter" />
+        </activity>
+        <activity
+            android:name=".FeedView"
+            android:label="@string/title_activity_feed_view"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".ServiceForFeeds"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".ReportsTrader"
+            android:label="@string/title_activity_reports_trader"
+            android:parentActivityName=".Profile" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baqspace.proto.Profile" />
+        </activity>
+    </application>
+
+</manifest>

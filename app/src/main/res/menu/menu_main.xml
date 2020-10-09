@@ -1,0 +1,59 @@
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="za.ac.uj.acsse.baqspace.prototype.MainActivity">
+
+    <group>
+    <item
+        android:title="@string/action_home"
+        >
+        <menu>
+            <item
+                android:id="@+id/action_home"
+                android:title="@string/action_home"
+                android:icon="@drawable/ic_home_black_36dp">
+            </item>
+
+                <item
+                    android:id="@+id/action_trader"
+                    android:title="@string/action_trader"
+                    android:icon="@drawable/ic_local_mall_black_24dp">
+
+                </item>
+
+                <item
+                    android:id="@+id/action_gallery"
+                    android:title="@string/action_gallery"
+                    android:icon="@drawable/ic_photo_library_black_24dp">
+
+                </item>
+
+                <item
+                    android:id="@+id/action_about"
+                    android:title="@string/action_about"
+                    android:icon="@drawable/ic_group_work_black_36dp">
+
+                </item>
+
+                <item
+                    android:id="@+id/action_locate"
+                    android:title="@string/action_locate"
+                    android:visible="true"
+                    android:icon="@drawable/ic_pin_drop_black_24dp">
+
+                </item>
+                <item
+                    android:id="@+id/action_logout"
+                    android:title="@string/action_logout"
+                    android:icon="@drawable/ic_power_settings_new_black_36dp"
+                    android:visible="false">
+
+                </item>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

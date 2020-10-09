@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newsfeed_shape"
+    >
+
+    <TextView
+        android:id="@+id/trader_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:text="@string/hello_world"
+        android:gravity="center"
+        />
+
+</LinearLayout>

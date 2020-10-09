@@ -1,0 +1,48 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.baqspace.proto.Beverage">
+
+    <group>
+        <item android:title="@string/action_drink">
+            <menu>
+                <item
+                    android:id="@+id/action_checkin"
+                    android:title="@string/action_checkin"
+                    android:icon="@drawable/ic_camera_black_36dp"
+                    >
+                </item>
+
+                <item
+                    android:id="@+id/action_home"
+                    android:title="@string/action_home"
+                    android:icon="@drawable/ic_home_black_36dp"
+                    >
+                </item>
+
+                <item
+                    android:id="@+id/action_trader"
+                    android:title="@string/action_trader"
+                    android:icon="@drawable/ic_local_mall_black_24dp"
+                    >
+                </item>
+
+                <item
+                    android:id="@+id/action_gallery"
+                    android:title="@string/action_gallery"
+                    android:icon="@drawable/ic_photo_library_black_24dp">
+                </item>
+
+                <item
+                    android:id="@+id/action_about"
+                    android:title="@string/action_about"
+                    android:icon="@drawable/ic_group_work_black_36dp"
+                    >
+                </item>
+            </menu>
+        </item>
+    </group>
+
+</menu>

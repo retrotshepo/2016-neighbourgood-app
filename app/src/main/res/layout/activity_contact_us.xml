@@ -1,0 +1,82 @@
+<android.support.v4.widget.DrawerLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/contact_layout"
+
+tools:context="com.baqspace.proto.ContactUs">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+
+    >
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar_layout"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            >
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:hint="@string/contact_name"
+
+                />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_email"
+                android:hint="@string/contact_email"
+
+                />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:id="@+id/message_body"
+                android:hint="@string/contact_message"
+
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit_message"
+                android:id="@+id/btnSubmit"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
+

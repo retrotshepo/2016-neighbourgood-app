@@ -1,0 +1,99 @@
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/login_layout"
+
+tools:context="com.baqspace.proto.Login">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+
+    android:paddingTop="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:src="@drawable/homedefault"
+        android:layout_margin="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signup_email"
+                android:id="@+id/login_email"
+                android:textColor="#000000"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signup_pass1"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:text="@string/log"
+                android:id="@+id/btnLogin"
+                android:elevation="5dp"
+                android:background="#D3D3D3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/registration"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+
+                android:hint="Register?"
+                android:clickable="true"
+                android:visibility="visible"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/lblLogInStatus"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,57 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.baqspace.proto.AboutUs">
+
+    <group>
+        <item android:title="@string/action_about">
+            <menu>
+                <item
+                    android:id="@+id/action_contact"
+                    android:title="@string/action_contact"
+                    android:orderInCategory="100"
+                    android:icon="@drawable/ic_phone_black_36dp"
+                    app:showAsAction="never" />
+            </menu>
+
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_home_black_36dp"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_gallery"
+        android:title="@string/action_gallery"
+        android:icon="@drawable/ic_photo_library_black_24dp"
+        android:orderInCategory="100"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_trader"
+        android:title="@string/action_trader"
+        android:icon="@drawable/ic_local_mall_black_24dp"
+        android:orderInCategory="100"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:icon="@drawable/ic_group_work_black_36dp"
+        android:orderInCategory="100"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+</menu>
